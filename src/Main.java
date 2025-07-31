@@ -18,19 +18,20 @@ public class Main {
         System.out.println("Midterms exam score: "+mid);
         System.out.println("Final exam score: "+fin);
         System.out.println("Project score: "+pro);
-        System.out.println("Attendance Percentage: "+att);
+        System.out.println("Attendance Percentage: "+att+"%");
         System.out.println("-----------------------------------------------------");
 
 
 
 
-        System.out.println("averageScore: "+avg*100);
+        System.out.println("Average Score: "+avg*100);
 
+        System.out.print("REMARKS: ");
         if(avg*100<75){
-            System.out.print("REMARK: ");
+
             System.out.print("FAILED");
         }else{
-            System.out.print("REMARK: ");
+
             System.out.print("PASSED");
         }
 
