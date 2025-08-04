@@ -10,16 +10,12 @@ public class Book {
         pages = Pages;
         isAvailable = true;
         System.out.println("A new book '"+Title+"' by "+Author+" has been added to the library");
-
-
     }
-
     public void displayInfo(){
         System.out.println("Title: "+title);
         System.out.println("Author: "+author);
         System.out.println("Pages: "+title);
         System.out.println("Available: "+(isAvailable ? "Yes" : "No"));
-
     }
     public void borrowBook() {
         if (isAvailable) {
