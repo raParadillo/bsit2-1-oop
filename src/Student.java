@@ -1,4 +1,4 @@
-public class student {
+public class Student {
     String name;
     int age;
     String course;
@@ -6,7 +6,7 @@ public class student {
     double Average;
     int passing =0;
 
-    public student(String name, int age, String course, double grade1, double grade2, double grade3) {
+    public Student(String name, int age, String course, double grade1, double grade2, double grade3) {
         this.name = name;
         this.age = age;
         this.course = course;

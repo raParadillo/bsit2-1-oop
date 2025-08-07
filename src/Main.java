@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        student student1 = new student("Alexy", 21, "BSIT", 85.5, 92.0, 78.5);
+        Student student1 = new Student("Alexy", 21, "BSIT", 85.5, 92.0, 78.5);
         student1.displayInfo();
         System.out.println("Average Grade: " + student1.calculateAverage());
         System.out.println("Letter Grade: " + student1.getLetterGrade());
@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println();
 
-        student student2 = new student("John", 23, "BSCS", 65.0, 70.0, 68.0);
+        Student student2 = new Student("John", 23, "BSCS", 65.0, 70.0, 68.0);
         student2.displayInfo();
         System.out.println("Average Grade: " + student2.calculateAverage());
         System.out.println("Letter Grade: " + student2.getLetterGrade());
@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println();
 
-        student student3 = new student("Raiden", 20, "BSBA", 91.9, 98.0, 100);
+        Student student3 = new Student("Raiden", 20, "BSBA", 91.9, 98.0, 100);
         student3.displayInfo();
         System.out.println("Average Grade: " + student3.calculateAverage());
         System.out.println("Letter Grade: " + student3.getLetterGrade());
