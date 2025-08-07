@@ -15,7 +15,6 @@ public class Student {
         this.grade3 = grade3;
     }
     public void displayInfo(){
-        System.out.println("Student Information:");
         System.out.println("Name: "+name+", "+"Age: "+age+", "+"Course: "+course);
         System.out.println("Grades: "+grade1+", "+grade2+", "+grade3);
     }

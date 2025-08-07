@@ -1,6 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Student Information:");
         Student student1 = new Student("Alexy", 21, "BSIT", 85.5, 92.0, 78.5);
         student1.displayInfo();
         System.out.println("Average Grade: " + student1.calculateAverage());
