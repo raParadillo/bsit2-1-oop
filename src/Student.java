@@ -4,7 +4,6 @@ public class Student {
     String course;
     double grade1, grade2, grade3;
     double Average;
-    int passing =0;
 
     public Student(String name, int age, String course, double grade1, double grade2, double grade3) {
         this.name = name;
@@ -37,12 +36,7 @@ public class Student {
         }
     }
     public boolean isPassing(){
-        if(Average>=70){
-            passing++;
-            return true;
-        }else{
-            return false;
-        }
+        return Average >= 70;
     }
 
 
