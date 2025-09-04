@@ -51,7 +51,7 @@ public class Book {
 
 
         public void addMultipleRatings(int... ratings) {
-            System.out.print("Ratings added: ");
+            System.out.print("\nRatings added: ");
             for (int i = 0; i < ratings.length; i++) {
                 try {
                     this.ratings.add(ratings[i]);

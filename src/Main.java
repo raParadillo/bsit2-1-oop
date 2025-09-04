@@ -11,6 +11,7 @@ public class Main {
 
         book1.addRating(4);
         book2.addMultipleRatings(5, 4, 3, 5);
+        book3.addMultipleRatings(1, 2, 3,4,6);
 
 
         try {
