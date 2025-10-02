@@ -71,9 +71,10 @@ public class Magazine extends LibraryItem implements Borrowable {
     public int getBorrowingPeriod() {
 
         return 7;
+    }
 
     @Override
-    public String getItemInfo() {
+    public String getItemInfo(){
         return super.getItemInfo() + String.format(", Issue: %d, Month: %s, Latest: %s",issueNumber, publicationMonth, isLatestIssue ? "Yes" : "No");
     }
 }
